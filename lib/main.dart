@@ -12,9 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Registre Form Example',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData.from(colorScheme: const ColorScheme.light()),
+      darkTheme: ThemeData.from(colorScheme: const ColorScheme.dark()),
       home: const RegistreForm(),
     );
   }

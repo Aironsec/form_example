@@ -50,6 +50,9 @@ class _RegistreFormState extends State<RegistreForm> {
               height: 16,
             ),
             ElevatedButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all(Colors.green),
+              ),
               onPressed: (() {}),
               child: const Text('Send form'),
             ),
